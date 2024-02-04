@@ -1,7 +1,7 @@
-/* 
+/*
     ---------------------------------------------------------------
     Add your name to this file below:
-    NAME: 
+    NAME: Ikram Yusuf
     ---------------------------------------------------------------
 */
 
@@ -24,12 +24,18 @@
 
     /* Font Stacks */
     /* add the two font stacks here */
+		--heading-fonts: 'Seymour One', Impact, sans-serif;
+		--body-fonts: Lato, Arial, sans-serif;
 }
 
 body{
 	/* set the font family to Lato, Arial, sans-serif (--body-fonts) */
+	font-family: var(--body-fonts);
+	line-height: 1.5;
 	/* Set the line height to 1.5 */
+	font-size: 1.1rem;
 	/* set the font size to 1.1rem	*/
+	color: var(--dk-gray);
 	/* set the font color to #222 (--dk-gray) */
 	margin: 0;
 	padding: 0;
@@ -138,7 +144,7 @@ footer{
 }
 
 
-/* 
+/*
     THIS CODE IS A MEDIA QUERY, USED TO ADD STYLES BASED ON HOW WIDE THE SCREEN IS. IT IS PART OF WHAT IS MAKING THE SITE RESPONSIVE
 
     LEARN MORE ABOUT RESPONSIVE DEVELOPMENT IN GIT414
@@ -147,7 +153,7 @@ footer{
 	nav{
 		width: fit-content;
 	}
-		
+
 	nav ul{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
